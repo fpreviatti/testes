@@ -1,17 +1,17 @@
 public class Lance {
-    String nome;
+    Usuario usuario;
     Double valor;
-    public Lance(String nome, Double valor){
-    this.nome=nome;
+    public Lance(Usuario usuario, Double valor){
+    this.usuario=usuario;
     this.valor=valor;
     }
 
-    public String getNome() {
-        return nome;
+    public Usuario getUsuario() {
+        return usuario;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
 
     public Double getValor() {
