@@ -9,6 +9,10 @@ public class Avaliador {
     private double menorDeTodos = Double.POSITIVE_INFINITY;
     private List<Lance> maiores;
 
+    public Avaliador(){
+
+    }
+
     public void avalia(Leilao leilao) {
 
         for (Lance lance : leilao.getLances()) {
